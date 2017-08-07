@@ -1,0 +1,312 @@
+#pt-settings {
+    margin-right: 310px
+}
+#pt-settings-content, #pt-extensions-content {
+    width: 100%;
+    float: left
+}
+#pt-settings-sidebar {
+    float: right;
+    margin-right: -310px;
+    width: 290px
+}
+#pt-settings-sidebar .centered {
+    text-align: center
+}
+#pt-settings-sidebar .button-large {
+    font-size: 17px;
+    line-height: 30px;
+    height: 32px
+}
+#pt-settings-sidebar .last-blurb {
+    font-size: 17px
+}
+#pt-settings-sidebar .postbox-nobg {
+    position: relative;
+    min-width: 255px
+}
+#pt-settings-sidebar .sidebar-container .postbox .inside {
+    margin-bottom: 0
+}
+
+.pt-toggle-switch-wrap {
+    width: 300px;
+    margin-left: -88px
+}
+#pt-setup-wizard {
+    overflow: hidden;
+    border: 1px solid #eee;
+    background: white
+}
+#pt-setup-wizard .inside {
+    padding: 0;
+    margin: 0 !important;
+    display: block;
+    position: relative
+}
+#pt-setup-wizard .tabs {
+    width: 40%;
+    min-width: 100px;
+    float: left;
+    box-sizing: border-box;
+    background: #fafafa;
+    border-right: 1px solid #eee;
+    position: relative
+}
+#pt-setup-wizard .tabs:after {
+    content: "";
+    position: absolute;
+    background-color: #FAFAFA;
+    height: 9999vw;
+    width: 100%;
+    border-right: 1px solid #EEE;
+    bottom: -9999vw;
+    float: left;
+    left: 0;
+    display: block
+}
+#pt-setup-wizard .tabs ul {
+    margin: 0
+}
+#pt-setup-wizard .tabs ul li {
+    border-bottom: 1px solid #eee;
+    margin: 0
+}
+#pt-setup-wizard .tabs ul li.active {
+    background: #eee;
+    background: white;
+    margin-right: -1px
+}
+#pt-setup-wizard .tabs ul li.active a {
+    color: #666665
+}
+#pt-setup-wizard .tabs ul li.completed {
+    background: #eee
+}
+#pt-setup-wizard .tabs ul li.completed a {
+    color: #999
+}
+#pt-setup-wizard .tabs ul li:hover {
+    background: #eee
+}
+#pt-setup-wizard .tabs ul li a {
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 40px
+}
+#pt-setup-wizard .tabs ul li a:focus,
+#pt-setup-wizard .tabs ul li a:active {
+    outline: none;
+    box-shadow: none
+}
+#pt-setup-wizard .panels {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    background: #fff
+}
+#pt-setup-wizard .panels input[type="text"],
+#pt-setup-wizard .panels input[type="password"],
+#pt-setup-wizard .panels input[type="checkbox"],
+#pt-setup-wizard .panels select,
+#pt-setup-wizard .panels textarea {
+    max-width: 100%;
+    width: 100%
+}
+#pt-setup-wizard .spinner-wrap {
+    vertical-align: middle;
+    color: #999;
+    text-align: center
+}
+#pt-setup-wizard .spinner-wrap .spinner {
+    float: none;
+    margin-top: 0
+}
+#pt-setup-wizard .spinner-wrap .loading-text {
+    vertical-align: middle
+}
+#pt-setup-wizard .boxed {
+    border: 1px solid #eee;
+    padding: 10px 20px 20px 20px;
+    margin: 20px 20px 20px;
+    background: #f9f9f9
+}
+#pt-setup-wizard .boxed form {
+    width: 50%;
+    min-width: 250px;
+    max-width: 100% !important
+}
+.pt-alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+.pt-alert .dashicons {
+    height: 34px;
+    width: 35px;
+    font-size: 35px;
+    float: left;
+    margin-right: 15px;
+    position: relative
+}
+.pt-alert.pt-alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1
+}
+.pt-alert.pt-alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+.dashicons.paytium-create-profile-warning {
+    font-size: 50px;
+    margin-right: 20px;
+    height: 50px
+}
+.dashicons.paytium-activate-account-failed-warning {
+    font-size: 40px;
+    margin-right: 20px;
+    height: 40px;
+}
+.post-type-pt_payment .subsubsub {
+    display: none
+}
+.post-type-pt_payment th#status,
+.post-type-pt_payment th#order_status {
+    width: 120px
+}
+.post-type-pt_payment .column-status .status,
+.post-type-pt_payment .column-order_status .order-status {
+    vertical-align: middle;
+    padding: 3px 15px;
+    color: #FFF;
+    border-radius: 4px;
+    background-color: #34495e
+}
+.post-type-pt_payment .column-status .status.status-open,
+.post-type-pt_payment .column-order_status .order-status.status-open,
+.post-type-pt_payment .column-status .status.order-status-new,
+.post-type-pt_payment .column-order_status .order-status.order-status-new{
+    background-color: #3498db
+}
+
+.post-type-pt_payment .column-status .status.status-cancelled,
+.post-type-pt_payment .column-order_status .order-status.status-cancelled,
+.post-type-pt_payment .column-status .status.status-expired,
+.post-type-pt_payment .column-order_status .order-status.status-expired,
+.post-type-pt_payment .column-status .status.status-failed,
+.post-type-pt_payment .column-status .status.status-refunded,
+.post-type-pt_payment .column-status .status.status-charged_back,
+.post-type-pt_payment .column-status .status.order-status-processing,
+.post-type-pt_payment .column-order_status .order-status.order-status-processing
+{
+    background-color: #e74c3c
+}
+
+.post-type-pt_payment .column-status .status.status-paid,
+.post-type-pt_payment .column-order_status .order-status.status-paid,
+.post-type-pt_payment .column-status .status.order-status-completed,
+.post-type-pt_payment .column-order_status .order-status.order-status-completed
+{
+    background-color: #008000
+}
+
+.post-php.post-type-pt_payment .option-group {
+    margin-top: 15px
+}
+.post-php.post-type-pt_payment .option-group label {
+    font-weight: bold;
+    width: 120px;
+    display: inline-block
+}
+
+.post-php.post-type-pt_payment .option-group-subscription {
+    margin-top: 15px;
+}
+
+.post-php.post-type-pt_payment .option-group-subscription-cancelled {
+    display: none;
+}
+
+.post-php.post-type-pt_payment .option-group-subscription label {
+    font-weight: bold;
+    width: 110px;
+    display: inline-block;
+    //padding: 6px 0px 8px 5px;
+    vertical-align: baseline;
+}
+
+.post-php.post-type-pt_payment .option-group-subscription  .option-value {
+    vertical-align: middle
+}
+
+
+.post-php.post-type-pt_payment .option-group select,
+.post-php.post-type-pt_payment .option-group input {
+    min-width: 200px
+}
+.post-php.post-type-pt_payment .option-value {
+    vertical-align: middle;
+}
+.post-php.post-type-pt_payment #visibility {
+    display: none
+}
+.post-php.post-type-pt_payment #post-body #post-body-content {
+    display: none
+}
+
+.paytium-subscription-pending-icon:before {
+    color: #ff9805;
+    margin-right: 5px;
+}
+
+.paytium-subscription-active-icon:before {
+    color: #008000;
+    margin-right: 5px;
+}
+
+.paytium-subscription-renewal-icon:before {
+    color: #3498db;
+    margin-right: 5px;
+}
+
+.paytium-subscription-failed-icon:before {
+    color: #e74c3c;
+    margin-right: 5px;
+}
+
+.paytium-regular-payment-icon:before {
+    color: transparent;
+    margin-right: 5px;
+}
+
+.paytium-cancel-subscription {
+    /*height: 30px;*/
+    /*width: 150px;*/
+    /*margin: 20px -75px 10px -75px;*/
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+}
+
+#poststuff #pt_subscription_details .inside {
+    margin: 0;
+    padding: 0;
+}
+#poststuff #pt_subscription_details .inside-options {
+    margin: 0px 11px 11px 11px;
+    line-height: 1em;
+}
+.pt-payment-intro {
+     margin-top: 0px;
+    text-align: center;
+ }
+
+.test-mode-payment {
+    color: #e74c3c;
+}

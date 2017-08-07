@@ -1,0 +1,193 @@
+/* Payment details at the top of the post. */
+.pt-payment-details-wrap { 
+	background: #dff0d8;
+	border: 0;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+.pt-payment-details-error {
+	background: #ffbaba;
+}
+
+/* Basic form styles. Most based off Bootstrap 3. */
+
+.pt-checkout-form {
+	margin-bottom: 15px;
+    border: 1px solid #eaeaea;
+    padding: 15px;
+    width: 20em;
+}
+
+/* Form styles */
+
+.pt-form-group {
+    margin-bottom: 15px;
+}
+
+.pt-form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.pt-form-group .pt-form-control {
+    display: block;
+    width: 15em;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555555;
+    /*background-color: #ffffff;*/
+    background-image: none;
+    border: 1px solid #cccccc;
+    /*border-radius: 4px;*/
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.pt-form-group .pt-form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.pt-form-group .pt-form-control::-moz-placeholder {
+    color: #999999;
+    opacity: 1;
+}
+
+.pt-form-group .pt-form-control:-ms-input-placeholder {
+    color: #999999;
+}
+
+.pt-form-group .pt-form-control::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.pt-form-group .pt-form-control[disabled],
+.pt-form-group .pt-form-control[readonly],
+.pt-form-group fieldset[disabled] .pt-form-control {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    opacity: 1;
+}
+
+.pt-form-group textarea.pt-form-control {
+    height: auto;
+    width: 100%;
+}
+
+.pt-form-group input[type="text"],
+.pt-form-group input[type="email"],
+.pt-uea-container {
+    width: 100%;
+}
+
+.pt-form-group input[type="checkbox"],
+.pt-form-group input[type="radio"] {
+    margin: 0 5px 0 5px;
+}
+
+/* User-entered amount */
+
+.pt-form-group .pt-uea-container {
+    display: block;
+}
+
+/* UEA field is inline-block so USD dollar sign can be placed on the left of it. */
+.pt-form-group .pt-uea-container .pt-uea-custom-amount {
+    width: 95%;
+}
+
+/* Coupon codes */
+
+.pt-form-group .pt-coup-coupon-container {
+    display: block;
+}
+
+/* Coupon code field is inline-block so "Apply" button can be placed on the right of it. */
+.pt-form-group .pt-coup-coupon-container .pt-coup-coupon {
+    display: inline-block;
+}
+
+.pt-form-group .pt-coup-coupon-container .pt-coup-apply-btn {
+    margin-left: 10px;
+}
+
+.pt-form-group .pt-coup-validation-message {
+    color: #a94442;
+}
+
+.pt-form-group .pt-coup-loading {
+    display: none;
+}
+
+.pt-form-group .pt-coup-loading img {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.pt-form-group .pt-coup-remove-coupon {
+    display: none;
+}
+
+.pt-radio-group {
+    margin-bottom: 5px;
+}
+
+.pt-radio-group ul {
+    display: none;
+}
+
+.pt-radio-group label, .pt-checkbox-group label {
+    font-weight: normal;
+    display: block;
+    /* margin: 0; Removed by David in 1.1.0, caused issues in some themes*/
+    cursor: pointer;
+}
+
+.pt-radio-group input[type="radio"] {
+    float: left;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+/* Button */
+
+.pt-checkout-form button {
+    -webkit-appearance: button;
+    background-color: #333;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0.7917em 1.5em;
+    text-transform: uppercase;
+}
+
+/* Parsley JS Validation styles */
+
+.pt-form-group ul.parsley-errors-list,
+.pt-form-group ul.parsley-errors-list li {
+    color: #a94442;
+    list-style-type: none;
+    //margin-left: 0;
+    //padding-left: 0;
+    //display: none;
+}
+
+.parsley-required {
+    color: #a94442;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    //display: none;
+}
+
+
+
